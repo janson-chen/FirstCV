@@ -22,14 +22,25 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="edges\line.py" />
+    <Compile Include="edges\circle.py" />
+    <Compile Include="edges\camera_capture.py" />
+    <Compile Include="edges\bg_subtractor_knn.py" />
     <Compile Include="FirstCV.py" />
+    <Compile Include="vision\vision.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="images\" />
+    <Folder Include="edges\" />
+    <Folder Include="vision\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\circle.jpg" />
     <Content Include="images\demo1.jpg" />
+    <Content Include="images\lani.png" />
+    <Content Include="images\traffic.flv" />
     <Content Include="requirements.txt" />
+    <Content Include="readme.md" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
